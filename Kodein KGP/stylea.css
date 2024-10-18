@@ -1,0 +1,161 @@
+.blue{
+    color: #11e3fb;
+}
+
+*{
+    background-color: #01011b;
+    color: azure;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+a{
+    color:chocolate;
+    text-decoration: none;
+}
+footer{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.logo{
+    width:7%;
+    flex-wrap:wrap;
+}
+.blockchainftr{
+      display:flex;
+      flex-direction:column;
+      margin:0px 20px 0px 0px;
+}
+.mlftr{
+    display:flex;
+      flex-direction:column;
+}
+.wdftr{
+    display:flex;
+      flex-direction:column;
+}
+a:hover{
+    color: azure;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.navlogo{
+    width:50px;
+    height:50px
+}
+.logodiv{
+    display:flex;
+    align-items: center;
+}
+.tabs{
+    font-size: 20px;
+    color: azure;
+    padding:10px
+}
+a[class="tabs"]:hover{
+    color:#11e3fb;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+img{
+    width:40%;
+}
+h1{
+    color: #11e3fb;
+    font-size: 4rem;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    width:50%;
+}
+.gemini{
+    display: flex;
+    justify-content: center;
+    padding:0px;
+    align-items: center;
+    border: 2px solid #11e3fb;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgba(54,54,54,.4);
+    h4,p,img{
+       background-color: transparent;
+    }
+    h4{
+        color: #11e3fb;
+        align-self: flex-start;
+        padding:0px 0px 0px 7px;
+    }
+    img{
+        width:100%;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
+.box{
+    display: flex;
+}
+.gem{
+    width:25%;
+}
+.cont{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    padding:0px;
+    align-items: center;
+    flex-direction: row;
+    h4{
+        color: #11e3fb;
+        align-self: flex-start;
+        padding:0px 0px 0px 7px;
+    }
+    img{
+        width:100%;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
+.art{
+    width:45%;
+    display:flex;
+    background-color: rgba(54,54,54,.4);
+    border:2px solid #11e3fb;
+    border-radius: 10px;
+    img{
+        width:100%;
+        height:100%;
+        background-color: transparent;
+    }
+    .img{
+        width:30%;
+        img{
+            width:100%;
+            height:100%;
+            border-radius: 10px;
+            background-color: transparent;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+.text{
+    background-color: transparent;
+    h4,p{
+        background-color: transparent;
+        font-size: .8rem;
+    }
+}
+.others{
+    width:70%;
+}

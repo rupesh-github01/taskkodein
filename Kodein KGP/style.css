@@ -1,0 +1,133 @@
+.blue{
+    color: #11e3fb;
+}
+
+*{
+    background-color: #01011b;
+    color: azure;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+a{
+    color:chocolate;
+    text-decoration: none;
+}
+footer{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.logo{
+    width:7%;
+    flex-wrap:wrap;
+}
+.blockchainftr{
+      display:flex;
+      flex-direction:column;
+      margin:0px 20px 0px 0px;
+}
+.mlftr{
+    display:flex;
+      flex-direction:column;
+}
+.wdftr{
+    display:flex;
+      flex-direction:column;
+}
+a:hover{
+    color: azure;
+}
+.exp{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.achievements{
+    display:flex;
+    justify-content: space-evenly;
+    font-size:1.5rem;
+}
+.img{
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+    background-color: transparent;
+} 
+.web{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;  
+    width:30%;
+    padding:15px;
+    border-radius: 10px;
+    margin:15px;
+    background-color: rgba(54,54,54,.4);
+}
+.aiml{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    width:30%;
+    padding:15px;
+    border-radius: 10px;
+    margin:15px;
+    background-color: rgba(54,54,54,.4);
+}
+.bc{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    width:30%;
+    padding:15px;
+    border-radius: 10px;
+    margin:15px;
+    background-color: rgba(54,54,54,.4);
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.navlogo{
+    width:50px;
+    height:50px
+}
+.logodiv{
+    display:flex;
+    align-items: center;
+}
+.tabs{
+    font-size: 20px;
+    color: azure;
+    padding:10px
+}
+h2[class="blue"]{
+    text-align: center;
+}
+a[class="tabs"]:hover{
+    color:#11e3fb;
+}
+.web p,.web h3{
+    background-color: transparent;
+    border-radius: 10px;
+}
+.aiml p,.aiml h3{
+    background-color: transparent;
+    border-radius: 10px;
+}
+.bc p,.bc h3{
+    background-color: transparent;
+    border-radius: 10px;
+}
+.svg{
+    display:flex;
+    .title{
+        order:-1;
+    }
+    justify-content: space-around;
+}
+#title{
+    font-size: 3rem;
+}

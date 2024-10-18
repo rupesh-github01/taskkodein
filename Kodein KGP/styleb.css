@@ -1,0 +1,125 @@
+h1{
+    text-align: center;
+    color: #11e3fb;
+}
+#container{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 25px 0px;
+}
+img{
+    width:200px;
+    height:250px;
+    align-self: center;
+}
+.button-container{
+    display:flex;
+    justify-content: space-around;
+}
+*{
+    background-color: #01011b;
+    color:azure;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.boxes{
+    border:2px solid #11e3fb;
+    padding:10px;
+    display:flex;
+    flex-direction:column ;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+.c{
+    background-color:#393940;
+    font-weight: bolder;
+}
+button{
+     background-color: #393940;
+     color: azure;
+     border:1px solid #11e3fb;
+     border-radius: 10px;
+     font-size: large;
+     position:relative;
+}
+button:hover{
+    background-color: #11e3fb;
+    .c{
+        background-color: #11e3fb;
+        color: black;
+    }
+}
+a{
+    text-decoration: none;
+}
+a[class="c"]:active{
+    background-color: #11e3fb;
+    .c{
+        background-color: #11e3fb;
+        color: black;
+    }
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navlogo{
+    width:50px;
+    height:50px;
+}
+.logodiv{
+    display:flex;
+    align-items: center;
+}
+.tabs{
+    font-size: 20px;
+    color: azure;
+    padding:10px
+}
+a[class="tabs"]:hover{
+    color:#11e3fb;
+}
+footer{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.logo{
+    width: 50px;
+    height :50px;
+    flex-wrap:wrap;
+}
+.blockchainftr{
+      display:flex;
+      flex-direction:column;
+      margin:0px 20px 0px 0px;
+}
+.mlftr{
+    display:flex;
+      flex-direction:column;
+}
+.wdftr{
+    display:flex;
+      flex-direction:column;
+}
+a[class="ftr"]:hover{
+    color: azure;
+}
+a[class="ftr"]{
+    color:chocolate;
+    text-decoration: none;
+}
+.ftr{
+    text-align: left;
+}
+.social{
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
